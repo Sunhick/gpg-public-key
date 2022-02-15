@@ -27,8 +27,11 @@ A9xznc/FuGpxHhllRuzbwS77h7XamQQ=
 ## Keys
 Grab my keys from ```keyserver.ubuntu.com``` by running -
 ```
+# Search & Import key
 gpg --keyserver keyserver.ubuntu.com --search-keys sunhick@gmail.com
-$ gpg --keyserver keyserver.ubuntu.com --recv-keys F0B7BA429658890D
+
+# Direct key import
+gpg --keyserver keyserver.ubuntu.com --recv-key F0B7BA429658890D
 ```
 
 ## Verify
