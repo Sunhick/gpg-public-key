@@ -1,6 +1,7 @@
 # gpg-public-key
 Sunil's GPG Public keys
 
+## Digital Proof
 ```
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
@@ -21,4 +22,16 @@ RmOWAQCOMC7Y5ILpVnEnTEFrOV8ghORXZXrStzQW7eJeJDqQPAD/YAUasB8EzJgu
 brmOjaM76sx9L3wYYZi4wuGrmzT1/gk=
 =agUn
 -----END PGP SIGNATURE-----
+```
+
+## Keys
+Grab my keys from ```keyserver.ubuntu.com``` by running -
+```
+$ gpg --keyserver keyserver.ubuntu.com --search-keys sunhick@gmail.com
+$ $ gpg --keyserver keyserver.ubuntu.com --recv-keys sunhick@gmail.com
+```
+
+## Verify
+```
+$ curl -s https://raw.githubusercontent.com/Sunhick/gpg-public-key/main/signature.txt.asc | gpg --verify
 ```
