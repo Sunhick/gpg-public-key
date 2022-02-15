@@ -27,11 +27,11 @@ A9xznc/FuGpxHhllRuzbwS77h7XamQQ=
 ## Keys
 Grab my keys from ```keyserver.ubuntu.com``` by running -
 ```
-$ gpg --keyserver keyserver.ubuntu.com --search-keys sunhick@gmail.com
-$ $ gpg --keyserver keyserver.ubuntu.com --recv-keys F0B7BA429658890D
+gpg --keyserver keyserver.ubuntu.com --search-keys sunhick@gmail.com
+$ gpg --keyserver keyserver.ubuntu.com --recv-keys F0B7BA429658890D
 ```
 
 ## Verify
 ```
-$ curl -s https://raw.githubusercontent.com/Sunhick/gpg-public-key/main/signature.txt.asc | gpg --verify
+curl -s https://raw.githubusercontent.com/Sunhick/gpg-public-key/main/signature.txt.asc | gpg --verify
 ```
